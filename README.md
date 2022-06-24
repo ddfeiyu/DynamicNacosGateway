@@ -65,7 +65,7 @@ Dynamic Gateway Route base on nacos 基于nacos动态刷新gateway网关路由
             org.springframework.cloud.gateway.event.RefreshRoutesEvent
 ##### 4、基于websocket的监听： SocketHandler
 
-##### redis配置
+#### redis配置
 ``` 
  127.0.0.1:6379> CONFIG GET *
 1) "repl-disable-tcp-nodelay"
