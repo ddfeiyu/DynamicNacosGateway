@@ -64,6 +64,9 @@ Dynamic Gateway Route base on nacos 基于nacos动态刷新gateway网关路由
             org.springframework.cloud.gateway.route.RouteDefinitionRepository
             org.springframework.cloud.gateway.event.RefreshRoutesEvent
 ##### 4、基于websocket的监听： SocketHandler
+    已实现
+##### 5、基于zk的监听： ZookeeperHandler 
+    未实现
 
 #### redis配置
 ``` 
