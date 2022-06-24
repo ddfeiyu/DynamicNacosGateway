@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ddd-nacos:war">
+    <output-path>$PROJECT_DIR$/ddd-nacos/ddd-nacos/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ddd-nacos</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ddd-nacos.war">
+      <element id="artifact" artifact-name="ddd-nacos:war exploded" />
+    </root>
+  </artifact>
+</component>

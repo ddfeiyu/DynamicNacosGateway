@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DynamicNacosGateway.iml" filepath="$PROJECT_DIR$/.idea/DynamicNacosGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-boot-nacos/ddd-boot-demo.iml" filepath="$PROJECT_DIR$/ddd-boot-nacos/ddd-boot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-boot-gateway/ddd-boot-gateway.iml" filepath="$PROJECT_DIR$/ddd-boot-gateway/ddd-boot-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-boot-nacos-local/ddd-boot-nacos-local.iml" filepath="$PROJECT_DIR$/ddd-boot-nacos-local/ddd-boot-nacos-local.iml" />
+    </modules>
+  </component>
+</project>

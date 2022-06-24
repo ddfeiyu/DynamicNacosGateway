@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ddd-nacos:war exploded">
+    <output-path>$PROJECT_DIR$/ddd-nacos/ddd-nacos/target/ddd-nacos</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>ddd-nacos</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ddd-nacos" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ddd-nacos/ddd-nacos/target/ddd-nacos/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ddd-nacos/web/Web" />
+    </root>
+  </artifact>
+</component>
